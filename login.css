@@ -1,0 +1,127 @@
+.logo{
+    width: 20rem;
+    height: 20rem;
+   border-radius: 100%;
+   margin: auto;
+   margin-top: 8rem;
+
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.formulario{
+    margin-top: 5rem;
+    margin-left: 8rem;
+    justify-content:center;
+    width: 21rem;
+}
+
+.formulario form{   
+    box-sizing: border-box;
+}
+
+form .user{
+    position: relative;
+    border-bottom:  solid #adadad;
+    margin: 30px 0;
+
+}
+
+.user input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.user label{
+    position: absolute;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(70%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+
+form .password{
+    position: relative;
+    border-bottom:  solid #adadad;
+    margin: 30px 0;
+
+}
+
+.password input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.password label{
+    position: absolute;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(70%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.user input:focus ~ label,
+.user input:focus ~ label{
+    top: -30px;
+    color: black;
+}
+.user input:focus ~ span::before,
+.user input:focus ~ span::before{
+    width: 100%;
+}
+.password input:focus ~ label,
+.password input:focus ~ label{
+    top: -30px;
+    color: black;
+}
+.password input:focus ~ span::before,
+.password input:focus ~ span::before{
+    width: 100%;
+}
+
+.forgot{
+    margin-left: 10rem;
+    color: rgb(130, 128, 128);
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: -20px;
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+
+.bt{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: 1px solid;
+    background: #c9c8c8;
+    border-radius: 25px;
+    margin-top: 40px;
+    border-color: #c9c8c8;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+    text-decoration: none;
+
+    
+}

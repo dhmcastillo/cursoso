@@ -1,0 +1,111 @@
+.encabezado{
+    height: 5rem;
+    width: 37.5rem;
+    background-color: #c9c8c8;
+    display: flex;
+    flex-direction:  row;
+    text-align: center;
+}
+
+.space{
+    height: 5rem;
+    width: 12.5rem;
+    background-color: rgba(238, 238, 238, 0.786);
+}
+
+.explore{
+    height: 5rem;
+    width: 12.5rem;
+    text-align: center;
+    background-color: rgba(238, 238, 238, 0.786);
+    color: gray;
+}
+
+.filter{
+    height: 5rem;
+    width: 12.5rem;
+    text-align: center;
+    background-color: rgba(238, 238, 238, 0.786);
+    color: gray;
+}
+
+
+
+.article{
+    display: flex;
+    flex-direction: row;
+    height: 13rem;
+    width: 37.5rem;
+  }
+
+  article img{
+    height: 12rem;
+    width: 12rem;
+    margin: 0 1rem 1rem 1rem;
+  }
+
+  .article2{
+    color: rgba(154, 151, 151, 0.553);
+    height: 9rem;
+    width: 25rem;
+  }
+
+  .article2 a{
+    color: rgba(51, 51, 51, 0.881);
+    text-decoration: none;
+    font-size: 1.45rem;
+  }
+
+  .article2 h3{
+    font-size: 12px;
+    margin-top: 2px;
+  }
+
+  button{
+    width: 7rem;
+    height: 1.5rem;
+    background-color: gray;
+    color: white;
+    border: gray;
+    border-radius: 0.4rem;
+  }
+
+  .comments img{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.7rem;
+  }
+
+  @media(max-width:768px) {
+
+    header { font-size: 36px; margin-bottom: 22px; }
+    header { font-size: 18px; }
+    main { width: 100vw; padding: 20px; }
+    article { margin-bottom: 16px; font-size: 14px; }
+    article h3 { margin: 10px 0 20px 0; }
+  }
+
+  .divisiones{
+    width: 37.5rem;
+    height: 2px;
+    background-color: rgba(143, 142, 142, 0.435);
+  }
+
+
+  footer {
+    background-color: rgba(238, 238, 238, 0.786);
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .iconos img{
+    width: 3rem;
+    height: 3rem;
+    margin: 0 1rem 0 2.5rem;
+  }
